@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-night: #07071a;
+  --color-night-soft: #12142c;
+  --color-gold: #e4c36a;
+  --color-gold-soft: #f3e2a7;
+  --color-ink: #f6f1e8;
+  --color-muted: #b7b0c9;
+  --color-line: rgba(228, 195, 106, 0.22);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-cormorant);
+}
+
+html,
+body {
+  background: #07071a;
+  color: #f6f1e8;
+}
+
+::selection {
+  background: rgba(228, 195, 106, 0.35);
+  color: #fff8e7;
+}
